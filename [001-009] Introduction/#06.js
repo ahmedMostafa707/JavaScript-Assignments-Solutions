@@ -1,0 +1,3 @@
+// To cancel the execution of the JS code...
+// 1. The first way is to use comments on the code in js file.
+// 2. The second way is to use a comment on the script tag in html file.

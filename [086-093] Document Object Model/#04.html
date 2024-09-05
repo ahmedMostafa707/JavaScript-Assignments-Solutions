@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="one" title="two">Two</div>
+    <div class="two" title="one">One</div>
+
+    <script>
+      const divOne = document.querySelector(".one");
+      const divTow = document.querySelector(".two");
+
+      let temp = divOne.title;
+      divOne.title = divTow.title;
+      divTow.title = temp;
+    </script>
+  </body>
+</html>
